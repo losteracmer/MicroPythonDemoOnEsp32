@@ -4,7 +4,7 @@
 ```shell
 alias mp=mpremote
 
-mp resume + cp figer_module.py :/
+mp resume + cp fingerprint_lock.py :/
 
 ```
 

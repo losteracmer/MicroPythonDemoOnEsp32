@@ -221,7 +221,7 @@ class BaseProtocol:
 
 # Pin 1-6: v_sensor touch_out VCC tx rx GND
 class ZW101(BaseProtocol):
-    # args: rx -> figer-module.tx tx -> figer-module.rx
+    # args: rx -> fingerprint-module.tx tx -> fingerprint-module.rx
     def __init__(self, port, tx, rx, baudrate=57600, vcc=0, sensor=0):
         super().__init__(port, tx, rx, baudrate)
         self.device_address = b'\xff\xff\xff\xff'
